@@ -1,0 +1,15 @@
+{
+  "name": "api-conalep",
+  "version": "1.0.0",
+  "description": "Api con postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Postgres"
+  ],
+  "author": "OSLL",
+  "license": "ISC"
+}
