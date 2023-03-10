@@ -7,6 +7,9 @@ app.use(express.json());
 
 routerApi(app);
 
+app.get("/",(req,res)=>{
+   res.send("<h1>Bienvenido a la API CONALEP</h1>")
+})
 
 app.listen(port,()=>{
     console.log("inicio servidor");
